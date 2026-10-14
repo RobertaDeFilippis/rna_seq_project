@@ -1,5 +1,7 @@
-
 #! /bin/bash -l 
+
+module load fastp/0.20.0-gcc-13.2.0
+
 fastp \
 -i sample_R1.fastq.gz \
 -I sample_R2.fastq.gz \
@@ -8,3 +10,4 @@ fastp \
 --length required 30
 
 # we could add a fastp parameter
+
