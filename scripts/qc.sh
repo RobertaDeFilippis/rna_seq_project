@@ -6,3 +6,5 @@ fastp \
 -o sample_R1_trim.fastq.gz \
 -O sample_R2_trim.fastq.gz \
 --length required 30
+
+# we could add a fastp parameter
